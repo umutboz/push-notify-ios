@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "364763EE26C28D6300469715"
-               BuildableName = "PNMWrapperExample.app"
-               BlueprintName = "PNMWrapperExample"
-               ReferencedContainer = "container:PNMWrapper.xcodeproj">
+               BuildableName = "PushNotifyManagementExample.app"
+               BlueprintName = "PushNotifyManagementExample"
+               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3647640326C28D6500469715"
-               BuildableName = "PNMWrapperExampleTests.xctest"
-               BlueprintName = "PNMWrapperExampleTests"
-               ReferencedContainer = "container:PNMWrapper.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3647640E26C28D6500469715"
-               BuildableName = "PNMWrapperExampleUITests.xctest"
-               BlueprintName = "PNMWrapperExampleUITests"
-               ReferencedContainer = "container:PNMWrapper.xcodeproj">
+               BlueprintIdentifier = "36FB519326C55828005E0679"
+               BuildableName = "PushNotifyManagementUITests.xctest"
+               BlueprintName = "PushNotifyManagementUITests"
+               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "364763EE26C28D6300469715"
-            BuildableName = "PNMWrapperExample.app"
-            BlueprintName = "PNMWrapperExample"
-            ReferencedContainer = "container:PNMWrapper.xcodeproj">
+            BuildableName = "PushNotifyManagementExample.app"
+            BlueprintName = "PushNotifyManagementExample"
+            ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "364763EE26C28D6300469715"
-            BuildableName = "PNMWrapperExample.app"
-            BlueprintName = "PNMWrapperExample"
-            ReferencedContainer = "container:PNMWrapper.xcodeproj">
+            BuildableName = "PushNotifyManagementExample.app"
+            BlueprintName = "PushNotifyManagementExample"
+            ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

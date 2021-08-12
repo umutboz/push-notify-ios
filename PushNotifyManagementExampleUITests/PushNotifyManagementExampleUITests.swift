@@ -1,13 +1,13 @@
 //
-//  PNMWrapperExampleUITests.swift
-//  PNMWrapperExampleUITests
+//  PushNotifyManagementExampleUITests.swift
+//  PushNotifyManagementExampleUITests
 //
-//  Created by Özgün Ergen on 10.08.2021.
+//  Created by Özgün Ergen on 12.08.2021.
 //
 
 import XCTest
 
-class PNMWrapperExampleUITests: XCTestCase {
+class PushNotifyManagementExampleUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

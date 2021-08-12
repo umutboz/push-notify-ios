@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import PNMWrapperExample
+@testable import PushNotifyManagement
 
 class PNMWrapperExampleTests: XCTestCase {
 

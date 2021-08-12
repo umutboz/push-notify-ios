@@ -6,10 +6,10 @@
 //
 
 import XCTest
-@testable import PNMWrapper
+@testable import PushNotifyManagement
 
-class PNMWrapperTests: XCTestCase {
-
+class PushNotifyManagementTests: XCTestCase {
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -28,6 +28,10 @@ class PNMWrapperTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+   
+    override func tearDown() {
+        super.tearDown()
     }
 
 }
