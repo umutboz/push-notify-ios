@@ -104,7 +104,6 @@
 		366B60F126C5088100B7DD0F /* PushNotifyManagementExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotifyManagementExample.entitlements; sourceTree = "<group>"; };
 		366B60F226C5090100B7DD0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		366B60F426C5106C00B7DD0F /* PushNotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationDelegate.swift; sourceTree = "<group>"; };
-		36D1819526C576F0006C1C5F /* PushNotifyManagementExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PushNotifyManagementExample copy-Info.plist"; path = "/Users/ozgunergen/Documents/KS.Projects/PNMWrapper/PushNotifyManagementExample copy-Info.plist"; sourceTree = "<absolute>"; };
 		36D1819626C57B43006C1C5F /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		36FB517626C55511005E0679 /* PushNotifyManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotifyManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FB517826C55511005E0679 /* PushNotifyManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotifyManagementTests.swift; sourceTree = "<group>"; };
@@ -193,7 +192,6 @@
 				364763D226C28D4300469715 /* Products */,
 				EA80DE69F6F94B820C1ABBFD /* Pods */,
 				A0AB815543E6CF9258A77895 /* Frameworks */,
-				36D1819526C576F0006C1C5F /* PushNotifyManagementExample copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
