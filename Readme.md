@@ -16,7 +16,7 @@ pod 'PushNotifyManagement' , :git => 'http://bellatrix:8080/tfs/ArgeMimariCollec
 # Integration For Firebase
 
 1. Added **GoogleService-Info.plist** file your project folder
-2. Appdelegate updating 
+2. Appdelegate file updating with this line 
 ```
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -58,7 +58,7 @@ extension AppDelegate {
 
 # Integration For APNS
 
-1. Appdelegate updating 
+2. Appdelegate file updating with this line
 ```
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -95,4 +95,16 @@ extension AppDelegate {
     }
 }
 
+```
+
+# Enums Property
+
+```
+public enum PushNotificationType {
+    
+    case APNS
+    case Firebase
+    
+    
+}
 ```
