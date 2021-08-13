@@ -92,8 +92,8 @@ PODS:
   - PromisesObjC (2.0.0)
 
 DEPENDENCIES:
-  - Firebase/Analytics
-  - Firebase/Messaging
+  - Firebase/Analytics (= 8.5.0)
+  - Firebase/Messaging (= 8.5.0)
 
 SPEC REPOS:
   trunk:
@@ -122,6 +122,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
 
-PODFILE CHECKSUM: 4ec0778685ad9b157d8f2b67bf8b3d60c8ed8926
+PODFILE CHECKSUM: 75b1f8f31b5a1c3b53f7d05cb8327c7aaf7cada1
 
 COCOAPODS: 1.10.1

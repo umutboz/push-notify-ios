@@ -4,15 +4,15 @@
 target 'PushNotifyManagement' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Firebase/Analytics'
-  pod 'Firebase/Messaging'
+  pod 'Firebase/Analytics','8.5.0'
+  pod 'Firebase/Messaging','8.5.0'
   
   # Pods for PushNotifyManagement
 
   target 'PushNotifyManagementTests' do
     # Pods for testing
-    pod 'Firebase/Analytics'
-    pod 'Firebase/Messaging'
+    pod 'Firebase/Analytics','8.5.0'
+    pod 'Firebase/Messaging','8.5.0'
   end
 
 end
@@ -28,7 +28,7 @@ target 'PushNotifyManagementExample' do
     # Pods for testing
   end
 
-  target 'PushNotifyManagementExampleUITests' do
+  target 'PushNotifyManagementUITests' do
     # Pods for testing
   end
 
