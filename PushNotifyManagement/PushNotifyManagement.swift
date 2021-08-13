@@ -7,7 +7,15 @@
 
 import UIKit
 
-/// PushNotificationManager
+/**
+ PushNotifyManagement
+
+- parameter PushNotificationType: Creater parameters for constructor.
+ # Example #
+```
+ // let manager = PushNotifyManagement(notificationType: .APNS, application: application)
+```
+*/
 public class PushNotifyManagement: NSObject {
     
 //MARK: Objects
@@ -17,6 +25,12 @@ public class PushNotifyManagement: NSObject {
     public var delegate: PushNotifyManagementDelegate?
     
 //MARK:: Construction
+    /**
+     Construction
+     - parameter notificationType: PushNotificationType.
+     - parameter application: application.   
+     */
+    
     public init(notificationType: PushNotificationType, application: UIApplication) {
         super.init()
         self.notificationType = notificationType
@@ -24,6 +38,7 @@ public class PushNotifyManagement: NSObject {
         self.configureService()
     }
 
+    ///Configuration method for create service client and notification permissions.
     func configureService() {
         
         switch self.notificationType {
@@ -58,6 +73,7 @@ public class PushNotifyManagement: NSObject {
         
     }
     
+    ///Get notification token APNS token or Firebase Token for your PushNotificationType
     public func getNotificationToken() -> String? {
         return self.service?.getToken()
     }

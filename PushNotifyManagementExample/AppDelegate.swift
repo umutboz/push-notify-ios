@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         
-        self.manager = PushNotifyManagement(notificationType: .APNS,
+        self.manager = PushNotifyManagement(notificationType: .Firebase,
                                                application: application)
         if AppConstants.isUITest == false {
             self.manager.delegate = self

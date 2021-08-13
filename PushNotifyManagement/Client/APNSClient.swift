@@ -6,7 +6,12 @@
 //
 
 import Foundation
-
+/**
+ APNSClient, This class configure all APNS configuration
+ 
+ - parameter name
+ - parameter token
+ */
 public class APNSClient: PushNotificationService {
     
   

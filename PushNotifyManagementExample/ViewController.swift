@@ -26,8 +26,6 @@ class ViewController: UIViewController {
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
-            print("1-")
-        
             self.apnsTokenLabel.text = appDelegate.manager.getNotificationToken()
             self.firebaseTokenLabel.text = appDelegate.manager.getNotificationToken()
         }
@@ -42,7 +40,6 @@ class ViewController: UIViewController {
     private func scheduleLocalNotification() {
         // Create Notification Content
         let notificationContent = UNMutableNotificationContent()
-
         // Configure Notification Content
         notificationContent.title = "Title"
         notificationContent.subtitle = "Subtitle"

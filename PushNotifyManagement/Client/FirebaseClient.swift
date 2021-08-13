@@ -9,7 +9,12 @@ import Foundation
 import Firebase
 
 
-
+/**
+ FirebaseClient, This class configure all firabese configuration
+ 
+ - parameter name
+ - parameter token
+ */
 public class FirebaseClient: NSObject, PushNotificationService {
     
     var name: String {

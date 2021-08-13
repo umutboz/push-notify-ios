@@ -23,7 +23,7 @@
 		36FB517B26C55511005E0679 /* PushNotifyManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* PushNotifyManagement.framework */; };
 		36FB519726C55828005E0679 /* PushNotifyManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FB519626C55828005E0679 /* PushNotifyManagementUITests.swift */; };
 		36FDBF0426C3DBD40008CBB4 /* PushNotficationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0326C3DBD40008CBB4 /* PushNotficationService.swift */; };
-		36FDBF0626C3DCA60008CBB4 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0526C3DCA60008CBB4 /* PushNotificationManager.swift */; };
+		36FDBF0626C3DCA60008CBB4 /* PushNotifyManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0526C3DCA60008CBB4 /* PushNotifyManagement.swift */; };
 		36FDBF0826C3DCC40008CBB4 /* PushNotification+Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0726C3DCC40008CBB4 /* PushNotification+Enums.swift */; };
 		36FDBF0A26C3DDA40008CBB4 /* APNSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0926C3DDA40008CBB4 /* APNSClient.swift */; };
 		36FDBF0C26C3DDED0008CBB4 /* FirebaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0B26C3DDED0008CBB4 /* FirebaseClient.swift */; };
@@ -112,7 +112,7 @@
 		36FB519626C55828005E0679 /* PushNotifyManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotifyManagementUITests.swift; sourceTree = "<group>"; };
 		36FB519826C55828005E0679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36FDBF0326C3DBD40008CBB4 /* PushNotficationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotficationService.swift; sourceTree = "<group>"; };
-		36FDBF0526C3DCA60008CBB4 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		36FDBF0526C3DCA60008CBB4 /* PushNotifyManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotifyManagement.swift; sourceTree = "<group>"; };
 		36FDBF0726C3DCC40008CBB4 /* PushNotification+Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PushNotification+Enums.swift"; sourceTree = "<group>"; };
 		36FDBF0926C3DDA40008CBB4 /* APNSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APNSClient.swift; sourceTree = "<group>"; };
 		36FDBF0B26C3DDED0008CBB4 /* FirebaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClient.swift; sourceTree = "<group>"; };
@@ -213,7 +213,7 @@
 				36FDBF0F26C3DE2C0008CBB4 /* Other */,
 				36FDBF0E26C3DE250008CBB4 /* Protocols */,
 				36FDBF0D26C3DE1B0008CBB4 /* Client */,
-				36FDBF0526C3DCA60008CBB4 /* PushNotificationManager.swift */,
+				36FDBF0526C3DCA60008CBB4 /* PushNotifyManagement.swift */,
 				364763D426C28D4300469715 /* PNMWrapper.h */,
 				364763D526C28D4300469715 /* Info.plist */,
 			);
@@ -666,7 +666,7 @@
 				36FDBF0A26C3DDA40008CBB4 /* APNSClient.swift in Sources */,
 				36FDBF0826C3DCC40008CBB4 /* PushNotification+Enums.swift in Sources */,
 				36FDBF0C26C3DDED0008CBB4 /* FirebaseClient.swift in Sources */,
-				36FDBF0626C3DCA60008CBB4 /* PushNotificationManager.swift in Sources */,
+				36FDBF0626C3DCA60008CBB4 /* PushNotifyManagement.swift in Sources */,
 				36FDBF0426C3DBD40008CBB4 /* PushNotficationService.swift in Sources */,
 				366B60F526C5106C00B7DD0F /* PushNotificationDelegate.swift in Sources */,
 			);
