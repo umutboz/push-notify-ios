@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PushNotifyManagementExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PushNotifyManagementExample" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MP6-7y-KnJ">
+                                <rect key="frame" x="12" y="44" width="390" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="NYA-dX-yIe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APNS Token:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqP-aD-jg0">
+                                <rect key="frame" x="20" y="124" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnO-3p-hpa">
+                                <rect key="frame" x="16" y="153" width="382" height="20"/>
+                                <accessibility key="accessibilityConfiguration" identifier="apnsToken"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="a5I-7J-FKc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firebase Token:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5y-fT-tS7">
+                                <rect key="frame" x="16" y="223" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BD-RN-8hM">
+                                <rect key="frame" x="20" y="264" width="374" height="20"/>
+                                <accessibility key="accessibilityConfiguration" identifier="firebaseToken"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="dGB-nD-NoL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRw-pR-UPR">
+                                <rect key="frame" x="20" y="812" width="374" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="showNotification"/>
+                                <state key="normal" title="Show Notification"/>
+                                <connections>
+                                    <action selector="showNotificationTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jga-Q8-3Py"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is Notification Will Present" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIZ-gd-hPE">
+                                <rect key="frame" x="20" y="314" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Mg-O2-wBs">
+                                <rect key="frame" x="20" y="351" width="374" height="20"/>
+                                <accessibility key="accessibilityConfiguration" identifier="notificationWillPresent"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="g5s-pu-6gM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is Notification Did Receive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJA-4w-xDh">
+                                <rect key="frame" x="20" y="401" width="374" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="XVX-Gl-2Zx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8z2-7J-XMa">
+                                <rect key="frame" x="20" y="437" width="374" height="20"/>
+                                <accessibility key="accessibilityConfiguration" identifier="notificationDidReceive"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="lGe-es-XcU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8z2-7J-XMa" firstAttribute="top" secondItem="BJA-4w-xDh" secondAttribute="bottom" constant="16" id="50i-F4-WEk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5BD-RN-8hM" secondAttribute="trailing" constant="20" id="5fv-jK-obA"/>
+                            <constraint firstItem="xqP-aD-jg0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5zy-Dw-hCE"/>
+                            <constraint firstItem="8z2-7J-XMa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7Ed-Ym-bQk"/>
+                            <constraint firstItem="MP6-7y-KnJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8UT-UX-ZqR"/>
+                            <constraint firstItem="9Mg-O2-wBs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Cnr-Ds-L2h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gRw-pR-UPR" secondAttribute="bottom" constant="20" id="Cze-tP-YV2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Mg-O2-wBs" secondAttribute="trailing" constant="20" id="DAD-1u-3vW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W5y-fT-tS7" secondAttribute="trailing" constant="16" id="DFt-VR-Pzk"/>
+                            <constraint firstItem="yIZ-gd-hPE" firstAttribute="top" secondItem="5BD-RN-8hM" secondAttribute="bottom" constant="30" id="EeF-V5-U3w"/>
+                            <constraint firstItem="BnO-3p-hpa" firstAttribute="top" secondItem="xqP-aD-jg0" secondAttribute="bottom" constant="8" id="HwE-5R-kws"/>
+                            <constraint firstItem="BJA-4w-xDh" firstAttribute="top" secondItem="9Mg-O2-wBs" secondAttribute="bottom" constant="30" id="MzY-ak-Ehm"/>
+                            <constraint firstItem="BJA-4w-xDh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="O5f-ON-bTZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BnO-3p-hpa" secondAttribute="trailing" constant="16" id="Ojt-Tj-Olr"/>
+                            <constraint firstItem="MP6-7y-KnJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="TiM-oc-xT9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8z2-7J-XMa" secondAttribute="trailing" constant="20" id="WFg-0N-IAz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BJA-4w-xDh" secondAttribute="trailing" constant="20" id="XY6-8s-22j"/>
+                            <constraint firstItem="yIZ-gd-hPE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XfG-7H-Pe6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MP6-7y-KnJ" secondAttribute="trailing" constant="12" id="ZHf-vK-Rmm"/>
+                            <constraint firstItem="5BD-RN-8hM" firstAttribute="top" secondItem="W5y-fT-tS7" secondAttribute="bottom" constant="20" id="a2v-dK-KbQ"/>
+                            <constraint firstItem="BnO-3p-hpa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aHP-nd-lo8"/>
+                            <constraint firstItem="5BD-RN-8hM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aik-gf-gRc"/>
+                            <constraint firstItem="W5y-fT-tS7" firstAttribute="top" secondItem="BnO-3p-hpa" secondAttribute="bottom" constant="50" id="c6Q-FQ-3Y1"/>
+                            <constraint firstItem="gRw-pR-UPR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ddF-Aj-aTH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yIZ-gd-hPE" secondAttribute="trailing" constant="20" id="fAh-hF-fv1"/>
+                            <constraint firstItem="9Mg-O2-wBs" firstAttribute="top" secondItem="yIZ-gd-hPE" secondAttribute="bottom" constant="16" id="fWZ-5A-pLl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gRw-pR-UPR" secondAttribute="trailing" constant="20" id="qPN-6D-6lf"/>
+                            <constraint firstItem="W5y-fT-tS7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qfT-mS-QxX"/>
+                            <constraint firstItem="xqP-aD-jg0" firstAttribute="top" secondItem="MP6-7y-KnJ" secondAttribute="bottom" constant="25" id="wqF-dQ-dzn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="apnsTokenLabel" destination="BnO-3p-hpa" id="AQI-sa-2m6"/>
+                        <outlet property="firebaseTokenLabel" destination="5BD-RN-8hM" id="VQP-EM-UhO"/>
+                        <outlet property="notificationDidReceiveLabel" destination="8z2-7J-XMa" id="30a-x5-9ze"/>
+                        <outlet property="notificationWillPresentLabel" destination="9Mg-O2-wBs" id="ssl-oa-244"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="119"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
