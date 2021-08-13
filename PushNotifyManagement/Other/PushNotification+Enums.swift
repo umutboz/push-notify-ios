@@ -1,6 +1,6 @@
 //
 //  PushNotification+Enums.swift
-//  PNMWrapper
+//  PushNotifyManagement
 //
 //  Created by Özgün Ergen on 11.08.2021.
 //

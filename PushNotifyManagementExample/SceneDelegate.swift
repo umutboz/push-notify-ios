@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  PNMWrapperExample
+//  PushNotifyManagementExample
 //
 //  Created by Özgün Ergen on 10.08.2021.
 //

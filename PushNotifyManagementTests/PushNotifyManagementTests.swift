@@ -1,6 +1,6 @@
 //
-//  PNMWrapperTests.swift
-//  PNMWrapperTests
+//  PushNotifyManagementTests.swift
+//  PushNotifyManagementTests
 //
 //  Created by Özgün Ergen on 10.08.2021.
 //

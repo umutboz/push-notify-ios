@@ -1,6 +1,6 @@
 //
 //  PushNotificationDelegate.swift
-//  PNMWrapper
+//  PushNotifyManagement
 //
 //  Created by Özgün Ergen on 12.08.2021.
 //
