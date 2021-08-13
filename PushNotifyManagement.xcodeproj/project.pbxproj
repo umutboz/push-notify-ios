@@ -30,6 +30,7 @@
 		36FDBF1526C3E5EE0008CBB4 /* PushNotifyManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* PushNotifyManagement.framework */; };
 		36FDBF1626C3E5EE0008CBB4 /* PushNotifyManagement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* PushNotifyManagement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		416D7D9C0215AD7D9CD672D9 /* Pods_PushNotifyManagementExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1CC5A8A30E608C1373DE28 /* Pods_PushNotifyManagementExample.framework */; };
+		4197C0875A5E4F388690D0CA /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC7A64D700E79AEAE8935AD /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework */; };
 		79442FEA98DDCAD8ABFDFBC2 /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EA7095FE109BCA60CEBD53 /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework */; };
 		B4D7DD7CB60A32B0CBC53CB2 /* Pods_PushNotifyManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14E2EBF25D0F9E5CD7D2C54 /* Pods_PushNotifyManagement.framework */; };
 /* End PBXBuildFile section */
@@ -118,6 +119,7 @@
 		36FDBF0B26C3DDED0008CBB4 /* FirebaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClient.swift; sourceTree = "<group>"; };
 		42265FB51BE07645477A39E4 /* Pods-PNMWrapperExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNMWrapperExampleTests.release.xcconfig"; path = "Target Support Files/Pods-PNMWrapperExampleTests/Pods-PNMWrapperExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		4B5B95E51F0D99871A095FAF /* Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagement-PushNotifyManagementTests/Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BC7A64D700E79AEAE8935AD /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8541860DC02E3CFA0CE911D5 /* Pods-PNMWrapperExample-PNMWrapperExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNMWrapperExample-PNMWrapperExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-PNMWrapperExample-PNMWrapperExampleUITests/Pods-PNMWrapperExample-PNMWrapperExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		88EB7571F4C07FE8C9739F2E /* Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests/Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4CBBD0112D38D0D1D1D82FE /* Pods-PNMWrapper-PNMWrapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNMWrapper-PNMWrapperTests.debug.xcconfig"; path = "Target Support Files/Pods-PNMWrapper-PNMWrapperTests/Pods-PNMWrapper-PNMWrapperTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,9 +128,11 @@
 		B6EA7095FE109BCA60CEBD53 /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifyManagement_PushNotifyManagementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B870502AAFA523DD7318A02F /* Pods_PushNotifyManagementExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifyManagementExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1907F0E2CA3B1DE8B7267F /* Pods-PushNotifyManagementExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExample.release.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExample/Pods-PushNotifyManagementExample.release.xcconfig"; sourceTree = "<group>"; };
+		C0F07B7475191C0449F61446 /* Pods-PushNotifyManagementExample-PushNotifyManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExample-PushNotifyManagementUITests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExample-PushNotifyManagementUITests/Pods-PushNotifyManagementExample-PushNotifyManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C14E2EBF25D0F9E5CD7D2C54 /* Pods_PushNotifyManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifyManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C256AC23B8259F9374214A25 /* Pods-PNMWrapperExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNMWrapperExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-PNMWrapperExampleTests/Pods-PNMWrapperExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C362BD5209E6BD823A5B8684 /* Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagement-PushNotifyManagementTests/Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC1C07DAAA6F6BBB11709B55 /* Pods-PushNotifyManagementExample-PushNotifyManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExample-PushNotifyManagementUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExample-PushNotifyManagementUITests/Pods-PushNotifyManagementExample-PushNotifyManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DAC4EE34957E196ECCB846F1 /* Pods-PushNotifyManagementExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExampleTests/Pods-PushNotifyManagementExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD3D71CD16CA60FECA710261 /* Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests/Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E6EB4FEC3BBB16BC70EE1B03 /* Pods-PNMWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PNMWrapper.release.xcconfig"; path = "Target Support Files/Pods-PNMWrapper/Pods-PNMWrapper.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4197C0875A5E4F388690D0CA /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +303,7 @@
 				1F1CC5A8A30E608C1373DE28 /* Pods_PushNotifyManagementExample.framework */,
 				227F9C877791E65AC75E17CA /* Pods_PushNotifyManagementExample_PushNotifyManagementExampleUITests.framework */,
 				B870502AAFA523DD7318A02F /* Pods_PushNotifyManagementExampleTests.framework */,
+				6BC7A64D700E79AEAE8935AD /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -325,6 +331,8 @@
 				DD3D71CD16CA60FECA710261 /* Pods-PushNotifyManagementExample-PushNotifyManagementExampleUITests.release.xcconfig */,
 				DAC4EE34957E196ECCB846F1 /* Pods-PushNotifyManagementExampleTests.debug.xcconfig */,
 				A5A1170791B70778E6A6C136 /* Pods-PushNotifyManagementExampleTests.release.xcconfig */,
+				CC1C07DAAA6F6BBB11709B55 /* Pods-PushNotifyManagementExample-PushNotifyManagementUITests.debug.xcconfig */,
+				C0F07B7475191C0449F61446 /* Pods-PushNotifyManagementExample-PushNotifyManagementUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -426,6 +434,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36FB519B26C55828005E0679 /* Build configuration list for PBXNativeTarget "PushNotifyManagementUITests" */;
 			buildPhases = (
+				8077A7F5AFC1FAD816E2C726 /* [CP] Check Pods Manifest.lock */,
 				36FB519026C55828005E0679 /* Sources */,
 				36FB519126C55828005E0679 /* Frameworks */,
 				36FB519226C55828005E0679 /* Resources */,
@@ -610,6 +619,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushNotifyManagementExample/Pods-PushNotifyManagementExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8077A7F5AFC1FAD816E2C726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PushNotifyManagementExample-PushNotifyManagementUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A6F8BD37E3C8857F56DBAF89 /* [CP] Check Pods Manifest.lock */ = {
@@ -1138,6 +1169,7 @@
 		};
 		36FB519C26C55828005E0679 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1C07DAAA6F6BBB11709B55 /* Pods-PushNotifyManagementExample-PushNotifyManagementUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T6CKW2WS23;
@@ -1157,6 +1189,7 @@
 		};
 		36FB519D26C55828005E0679 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F07B7475191C0449F61446 /* Pods-PushNotifyManagementExample-PushNotifyManagementUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T6CKW2WS23;
