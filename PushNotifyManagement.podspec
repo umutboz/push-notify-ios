@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'PushNotifyManagement'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.summary      = 'KocSistem push notift maangement framework'
   s.description  = 'A description of PushNotifyManagement'
   s.homepage     = 'https://gitlab.kocsistem.com.tr/oneframe-mobile/ios/push-notify-management'
