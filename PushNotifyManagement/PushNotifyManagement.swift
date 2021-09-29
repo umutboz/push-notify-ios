@@ -90,7 +90,7 @@ extension PushNotifyManagement: UNUserNotificationCenterDelegate {
         
         let userInfo = notification.request.content.userInfo
         delegate?.pushNotification(willPresent: userInfo)
-        completionHandler([.sound,.badge,.banner])
+        completionHandler([.sound,.badge])
     }
     
     public func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
