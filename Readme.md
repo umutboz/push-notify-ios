@@ -1,7 +1,5 @@
 # PushNotifyManagement
 
-
-
 # Introduction
 Kocsistem Support PushNotifyManagetment component for the notification at IOS app. This component is supporting **Firebase** and **Apple Push Notification Service**.
 
