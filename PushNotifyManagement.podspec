@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
   s.dependency 'Firebase/Analytics', '~> 8.5'
   s.dependency 'Firebase/Messaging', '~> 8.5'
+  s.dependency 'Firebase', '~> 8.5'
   s.swift_version    = '5.0'
   end
   
