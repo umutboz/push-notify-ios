@@ -29,6 +29,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "36FB517526C55511005E0679"
+               BuildableName = "PushNotifyManagementTests.xctest"
+               BlueprintName = "PushNotifyManagementTests"
+               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
