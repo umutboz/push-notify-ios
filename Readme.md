@@ -55,7 +55,6 @@ extension AppDelegate {
 
 ```
 
-
 # Integration For APNS
 
 2. Appdelegate file updating with this line
