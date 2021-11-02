@@ -24,12 +24,12 @@ public class FirebaseClient: NSObject, PushNotificationService {
     
     static var token: String?
     
-    func configure() {
+    public func configure() {
         FirebaseApp.configure()
         Messaging.messaging().delegate = self
     }
     
-    func getToken() -> String? {
+    public func getToken() -> String? {
         return FirebaseClient.token
     }
     
