@@ -12,5 +12,4 @@ public enum PushNotificationType {
     case APNS
     case Firebase
     
-    
 }
