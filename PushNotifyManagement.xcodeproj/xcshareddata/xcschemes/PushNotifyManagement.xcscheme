@@ -39,6 +39,16 @@
                ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "36FB519326C55828005E0679"
+               BuildableName = "PushNotifyManagementUITests.xctest"
+               BlueprintName = "PushNotifyManagementUITests"
+               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
