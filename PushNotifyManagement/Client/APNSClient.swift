@@ -14,15 +14,17 @@ import Foundation
  */
 public class APNSClient: PushNotificationService {
     
-  
+    
     var name: String {
         return "APNS"
     }
-  
-    public static var token: String?
     
-    func configure() {
-        
+    public static var token: String? 
+    
+    var pushNotificationToken: ((_ token: String) -> ())!
+    
+    func configure(PNToken: @escaping ((_ token: String) -> ())) {
+        pushNotificationToken = PNToken
     }
     func getToken() -> String? {
         return APNSClient.token

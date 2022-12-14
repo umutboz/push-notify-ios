@@ -68,7 +68,9 @@ public class PushNotifyManagement: NSObject {
         guard let _service = self.service else {
             return
         }
-        _service.configure()
+        _service.configure { token in
+            self.delegate?.pushNotification(token: token)
+        }
         
         
     }

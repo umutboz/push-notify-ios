@@ -12,8 +12,8 @@ protocol PushNotificationService {
     
     var name: String { get }
     static var token: String? {set get}
-    
-    func configure()
+    var pushNotificationToken: ((_ token: String) -> ())! {get set}
+    func configure(PNToken: @escaping ((_ token: String) -> ()))
     func sendToken()
     func getToken() -> String?
     

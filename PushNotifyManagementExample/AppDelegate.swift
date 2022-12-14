@@ -58,6 +58,11 @@ extension AppDelegate {
 
 
 extension AppDelegate: PushNotifyManagementDelegate {
+    
+    func pushNotification(token: String) {
+        
+    }
+    
 
     func pushNotification(didReceive notification: [AnyHashable : Any]) {
         

@@ -66,6 +66,11 @@ class ViewController: UIViewController {
 
 extension ViewController: PushNotifyManagementDelegate {
     
+    func pushNotification(token: String) {
+        
+    }
+    
+    
     func pushNotification(didReceive notification: [AnyHashable : Any]) {
         notificationDidReceiveLabel.text = "Notification Did Received"
         

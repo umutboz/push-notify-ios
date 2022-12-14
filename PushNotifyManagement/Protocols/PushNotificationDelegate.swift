@@ -11,4 +11,5 @@ public protocol PushNotifyManagementDelegate {
     
     func pushNotification(willPresent notification: [AnyHashable: Any])
     func pushNotification(didReceive notification: [AnyHashable: Any])
+    func pushNotification(token: String)
 }
