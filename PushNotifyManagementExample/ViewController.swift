@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
-        if AppConstants.isUITest {
-            appDelegate.manager.delegate = self
-        }
+       // if AppConstants.isUITest {
+        //    appDelegate.manager.delegate = self
+        //}
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
             self.apnsTokenLabel.text = appDelegate.manager.getNotificationToken()

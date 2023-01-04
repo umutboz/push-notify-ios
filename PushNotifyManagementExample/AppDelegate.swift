@@ -40,9 +40,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.manager = PushNotifyManagement(notificationType: .Firebase,
                                                application: application)
-        if AppConstants.isUITest == false {
+
+        self.manager.oneFrameService(clientId: "531ccb57-a369-45e6-aa4e-08dae9687a47", key: "Buraya Key Adresi Gelicek")
+        //if AppConstants.isUITest == false {
             self.manager.delegate = self
-        }
+        //}
     }
     
 }
@@ -60,7 +62,7 @@ extension AppDelegate {
 extension AppDelegate: PushNotifyManagementDelegate {
     
     func pushNotification(token: String) {
-        
+        self.manager.registerDevice()
     }
     
 

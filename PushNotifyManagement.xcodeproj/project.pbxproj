@@ -29,6 +29,16 @@
 		36FDBF1526C3E5EE0008CBB4 /* PushNotifyManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* PushNotifyManagement.framework */; };
 		36FDBF1626C3E5EE0008CBB4 /* PushNotifyManagement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* PushNotifyManagement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9E3F92EB075BC7152BB599A6 /* Pods_PushNotifyManagementExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFEA01BEFBA7CF03B4427AA /* Pods_PushNotifyManagementExample.framework */; };
+		DC0E091129645571001DA281 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E091029645571001DA281 /* Request.swift */; };
+		DC0E09132964558B001DA281 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E09122964558B001DA281 /* Response.swift */; };
+		DC0E0915296455A7001DA281 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0914296455A7001DA281 /* RestClient.swift */; };
+		DC0E0917296456A2001DA281 /* Coders.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0916296456A2001DA281 /* Coders.swift */; };
+		DC0E091B296458FA001DA281 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E091A296458FA001DA281 /* NotificationService.swift */; };
+		DC0E091F29645931001DA281 /* RegisterDeviceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E091E29645931001DA281 /* RegisterDeviceRequest.swift */; };
+		DC0E092229647316001DA281 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E092129647316001DA281 /* BaseModel.swift */; };
+		DC0E0924296474EC001DA281 /* ResponseRegisterDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0923296474EC001DA281 /* ResponseRegisterDeviceModel.swift */; };
+		DC0E092829647D2C001DA281 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E092729647D2C001DA281 /* Endpoint.swift */; };
+		DC28784129656B1900D9F1CA /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28784029656B1900D9F1CA /* DeviceInfo.swift */; };
 		E590ED25ED7CD3129DF5BA16 /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C470FB146AF3E8CFC41161 /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework */; };
 		F2C51130821DFB6BD990510E /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E4287059625C40173462D1 /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework */; };
 /* End PBXBuildFile section */
@@ -111,6 +121,16 @@
 		CE701BAB4CFF694FA1A212C0 /* Pods-PushNotifyManagementExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExampleTests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExampleTests/Pods-PushNotifyManagementExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		D5E4287059625C40173462D1 /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifyManagement_PushNotifyManagementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFEA01BEFBA7CF03B4427AA /* Pods_PushNotifyManagementExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotifyManagementExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0E091029645571001DA281 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		DC0E09122964558B001DA281 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		DC0E0914296455A7001DA281 /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		DC0E0916296456A2001DA281 /* Coders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coders.swift; sourceTree = "<group>"; };
+		DC0E091A296458FA001DA281 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		DC0E091E29645931001DA281 /* RegisterDeviceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDeviceRequest.swift; sourceTree = "<group>"; };
+		DC0E092129647316001DA281 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		DC0E0923296474EC001DA281 /* ResponseRegisterDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRegisterDeviceModel.swift; sourceTree = "<group>"; };
+		DC0E092729647D2C001DA281 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		DC28784029656B1900D9F1CA /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		DD1C99CD708E59B5360967A8 /* Pods-PushNotifyManagementExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExampleTests/Pods-PushNotifyManagementExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5E07F36ADB9FCEB8F46524F /* Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagement-PushNotifyManagementTests/Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E809F03A797B6FA43585AAC7 /* Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagement-PushNotifyManagementTests/Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +203,7 @@
 		364763D326C28D4300469715 /* PushNotifyManagement */ = {
 			isa = PBXGroup;
 			children = (
+				DC0E0918296458E0001DA281 /* Core */,
 				36FDBF0F26C3DE2C0008CBB4 /* Other */,
 				36FDBF0E26C3DE250008CBB4 /* Protocols */,
 				36FDBF0D26C3DE1B0008CBB4 /* Client */,
@@ -259,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				36FDBF0726C3DCC40008CBB4 /* PushNotification+Enums.swift */,
+				DC28784029656B1900D9F1CA /* DeviceInfo.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -273,6 +295,70 @@
 				BFD42EC88642EEFF6457056E /* Pods_PushNotifyManagementExampleTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC0E090F29645517001DA281 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E091029645571001DA281 /* Request.swift */,
+				DC0E09122964558B001DA281 /* Response.swift */,
+				DC0E0914296455A7001DA281 /* RestClient.swift */,
+				DC0E0916296456A2001DA281 /* Coders.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DC0E0918296458E0001DA281 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E0919296458E7001DA281 /* Service */,
+				DC0E090F29645517001DA281 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DC0E0919296458E7001DA281 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E092629647D20001DA281 /* EndPoint */,
+				DC0E092529647502001DA281 /* Request */,
+				DC0E092029647306001DA281 /* Model */,
+				DC0E091D29645913001DA281 /* Notification */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DC0E091D29645913001DA281 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E091A296458FA001DA281 /* NotificationService.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		DC0E092029647306001DA281 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E092129647316001DA281 /* BaseModel.swift */,
+				DC0E0923296474EC001DA281 /* ResponseRegisterDeviceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC0E092529647502001DA281 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E091E29645931001DA281 /* RegisterDeviceRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DC0E092629647D20001DA281 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E092729647D2C001DA281 /* Endpoint.swift */,
+			);
+			path = EndPoint;
 			sourceTree = "<group>";
 		};
 		EA80DE69F6F94B820C1ABBFD /* Pods */ = {
@@ -596,12 +682,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0E09132964558B001DA281 /* Response.swift in Sources */,
+				DC0E091B296458FA001DA281 /* NotificationService.swift in Sources */,
+				DC0E0917296456A2001DA281 /* Coders.swift in Sources */,
+				DC0E092229647316001DA281 /* BaseModel.swift in Sources */,
+				DC0E092829647D2C001DA281 /* Endpoint.swift in Sources */,
 				36FDBF0A26C3DDA40008CBB4 /* APNSClient.swift in Sources */,
+				DC0E091F29645931001DA281 /* RegisterDeviceRequest.swift in Sources */,
+				DC28784129656B1900D9F1CA /* DeviceInfo.swift in Sources */,
 				36FDBF0826C3DCC40008CBB4 /* PushNotification+Enums.swift in Sources */,
 				36FDBF0C26C3DDED0008CBB4 /* FirebaseClient.swift in Sources */,
+				DC0E0915296455A7001DA281 /* RestClient.swift in Sources */,
 				36FDBF0626C3DCA60008CBB4 /* PushNotifyManagement.swift in Sources */,
+				DC0E091129645571001DA281 /* Request.swift in Sources */,
 				36FDBF0426C3DBD40008CBB4 /* PushNotficationService.swift in Sources */,
 				366B60F526C5106C00B7DD0F /* PushNotificationDelegate.swift in Sources */,
+				DC0E0924296474EC001DA281 /* ResponseRegisterDeviceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
