@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.manager = PushNotifyManagement(notificationType: .Firebase,
                                                application: application)
 
-        self.manager.oneFrameService(clientId: "531ccb57-a369-45e6-aa4e-08dae9687a47", key: "Buraya Key Adresi Gelicek")
+        self.manager.oneFrameService(clientId: "d9e47a4f-261a-4b87-9a00-08dae8abc304", key: "Buraya Key Adresi Gelicek")
         //if AppConstants.isUITest == false {
             self.manager.delegate = self
         //}
