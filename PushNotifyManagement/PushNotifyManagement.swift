@@ -17,17 +17,13 @@ import UIKit
 ```
 */
 
-struct OneFrameConfig {
-    var clientId: String
-    var key: String
-}
 public class PushNotifyManagement: NSObject {
     
 //MARK: Objects
     private var notificationType: PushNotificationType?
     private var service: PushNotificationService?
     private var application: UIApplication?
-    private var ofmConfig: OneFrameConfig?
+    public var oneFrameManager: OneFrameDashboardManager!
     public var delegate: PushNotifyManagementDelegate?
     
 //MARK:: Construction
@@ -42,6 +38,7 @@ public class PushNotifyManagement: NSObject {
         self.notificationType = notificationType
         self.application = application
         self.configureService()
+        self.oneFrameManager = OneFrameDashboardManager()
     }
 
     ///Configuration method for create service client and notification permissions.
@@ -95,33 +92,11 @@ public class PushNotifyManagement: NSObject {
      - parameter clientId: Client ID in dashboard service
      - parameter key: Api key for dashboard service
      */
-    public func oneFrameService(clientId: String, key: String) {
-        ofmConfig = OneFrameConfig(clientId: clientId, key: key)
-
+    public func oneFrameManagerConfig(clientId: String, key: String) {
+        self.oneFrameManager.configure(config: OneFrameConfig(clientId: clientId, key: key))
     }
     
-    public func registerDevice() {
-        
-        let model = UIDevice.modelName
-        let version = DeviceInfo.getOSInfo()
-        let token = self.service?.getToken()
-        let deviceId = UIDevice.current.identifierForVendor?.uuidString
-        
-        guard let _token = token else {
-            return
-        }
-        
-        guard let _deviceId = deviceId else {
-            return
-        }
-        
-        NotificationService.registerDevice(token: _token,
-                                           deviceID: _deviceId,
-                                           clientID: ofmConfig!.clientId,
-                                           model: model,
-                                           version: version)
-        
-    }
+   
     
     //MARK: End - One Frame Dashboard Notification Service
     

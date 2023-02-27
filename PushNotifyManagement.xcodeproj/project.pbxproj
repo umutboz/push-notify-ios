@@ -39,6 +39,7 @@
 		DC0E0924296474EC001DA281 /* ResponseRegisterDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E0923296474EC001DA281 /* ResponseRegisterDeviceModel.swift */; };
 		DC0E092829647D2C001DA281 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E092729647D2C001DA281 /* Endpoint.swift */; };
 		DC28784129656B1900D9F1CA /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28784029656B1900D9F1CA /* DeviceInfo.swift */; };
+		DCCCB6122966E49B00F164C5 /* OneFrameDashboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCCB6112966E49B00F164C5 /* OneFrameDashboardManager.swift */; };
 		E590ED25ED7CD3129DF5BA16 /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C470FB146AF3E8CFC41161 /* Pods_PushNotifyManagementExample_PushNotifyManagementUITests.framework */; };
 		F2C51130821DFB6BD990510E /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E4287059625C40173462D1 /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework */; };
 /* End PBXBuildFile section */
@@ -131,6 +132,7 @@
 		DC0E0923296474EC001DA281 /* ResponseRegisterDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRegisterDeviceModel.swift; sourceTree = "<group>"; };
 		DC0E092729647D2C001DA281 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		DC28784029656B1900D9F1CA /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		DCCCB6112966E49B00F164C5 /* OneFrameDashboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneFrameDashboardManager.swift; sourceTree = "<group>"; };
 		DD1C99CD708E59B5360967A8 /* Pods-PushNotifyManagementExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExampleTests/Pods-PushNotifyManagementExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5E07F36ADB9FCEB8F46524F /* Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagement-PushNotifyManagementTests/Pods-PushNotifyManagement-PushNotifyManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E809F03A797B6FA43585AAC7 /* Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagement-PushNotifyManagementTests/Pods-PushNotifyManagement-PushNotifyManagementTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				36FDBF0526C3DCA60008CBB4 /* PushNotifyManagement.swift */,
 				364763D426C28D4300469715 /* PNMWrapper.h */,
 				364763D526C28D4300469715 /* Info.plist */,
+				DCCCB6112966E49B00F164C5 /* OneFrameDashboardManager.swift */,
 			);
 			path = PushNotifyManagement;
 			sourceTree = "<group>";
@@ -687,6 +690,7 @@
 				DC0E0917296456A2001DA281 /* Coders.swift in Sources */,
 				DC0E092229647316001DA281 /* BaseModel.swift in Sources */,
 				DC0E092829647D2C001DA281 /* Endpoint.swift in Sources */,
+				DCCCB6122966E49B00F164C5 /* OneFrameDashboardManager.swift in Sources */,
 				36FDBF0A26C3DDA40008CBB4 /* APNSClient.swift in Sources */,
 				DC0E091F29645931001DA281 /* RegisterDeviceRequest.swift in Sources */,
 				DC28784129656B1900D9F1CA /* DeviceInfo.swift in Sources */,
