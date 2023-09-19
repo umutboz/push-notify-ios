@@ -3,7 +3,7 @@
 //  PushNotifyManagement
 //
 //  Created by Orhan Özgün Ergen on 3.01.2023.
-//
+//  Edited by Umut Boz 19.09.2023.
 
 import Foundation
 
@@ -197,6 +197,7 @@ public class RestClient {
     @discardableResult
     public func makeRequest<Q: Request & Encodable, S: Decodable>(
         request: Q,
+        apiKey:String,
         completionHandler: @escaping (S?, Error?) -> Void
     ) -> URLSessionTask? {
         do {

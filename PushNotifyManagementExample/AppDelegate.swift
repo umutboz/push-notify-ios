@@ -36,12 +36,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func configurationPushNotification(application: UIApplication) {
         
-        
-        
         self.manager = PushNotifyManagement(notificationType: .Firebase,
                                                application: application)
 
-        self.manager.oneFrameManagerConfig(clientId: "d9e47a4f-261a-4b87-9a00-08dae8abc304", key: "Buraya key adresi gelicek")
+        self.manager.oneFrameManagerConfig(clientId: "35e1b40b-f0d7-4093-ca9a-08dbb2a5a79c", key: "NlgdOpJwKT9cTDvMJVwFZaalP8iRulpPfNSNzoh53uMlR9IsfMWX6WFBjbAtnkSb5wmZcA3ggEQleJMaAXFjA%2B3Eg0kVplCaFu3uMZBLkW5tqcfuMufAD7h9kwbpRMOFV0bqqwQJRxWxgq5aShfCmLSor2GUbZTyEvKqgvoPR9ue44pb3BAR2JO3G3SBrdKExl8Rq1WLkrZLbd0Zy80itc4G1lq%2BgPjRgnmuUz9Mv8oNrpMJLJTqcFccjDV4kyvP")
         
         //if AppConstants.isUITest == false {
             self.manager.delegate = self

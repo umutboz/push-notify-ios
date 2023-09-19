@@ -36,7 +36,8 @@ public class OneFrameDashboardManager {
                                            deviceID: _deviceId,
                                            clientID: ofmConfig!.clientId,
                                            model: model,
-                                           version: version)
+                                           version: version,
+                                           apiKey: ofmConfig!.key)
         
     }
     

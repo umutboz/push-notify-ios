@@ -5,7 +5,7 @@ Kocsistem Support PushNotifyManagetment component for the notification at IOS ap
 
 # Cocoapods
 
-pod 'PushNotifyManagement' , :git => 'https://gitlab.kocsistem.com.tr/oneframe-mobile/ios/push-notify-management', :tag => '1.0.0'
+pod 'PushNotifyManagement' , :git => 'https://gitlab.kocsistem.com.tr/oneframe-mobile/ios/push-notify-management', :tag => '1.2.0'
 
 # Requirement
 
@@ -31,11 +31,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func configurationPushNotification(application: UIApplication) {
         self.manager = PushNotifyManagement(notificationType: .Firebase,
                                                application: application)
+        //INTEGRATION OFM PUSH PORTAL
+        //https://oneframe-notification-hub-test.azurewebsites.net/
+        self.manager.oneFrameManagerConfig(clientId: "CLIENT_ID", key: "API_KEY")
         self.manager.delegate = self
     }
 }
 
 extension AppDelegate: PushNotifyManagementDelegate {
+
+    func pushNotification(token: String) {
+        self.manager.oneFrameManager.registerDevice(token: token)
+    }
 
     func pushNotification(didReceive notification: [AnyHashable : Any]) {
         
