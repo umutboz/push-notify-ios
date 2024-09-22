@@ -7,15 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = 'PushNotifyManagement'
-  s.version      = '1.1.0'
-  s.summary      = 'KocSistem push notift maangement framework'
-  s.description  = 'A description of PushNotifyManagement'
-  s.homepage     = 'https://gitlab.kocsistem.com.tr/oneframe-mobile/ios/push-notify-management'
-  s.author             = { 'KoçSistem' => 'StarForce@kocsistem.com.tr' }
+  s.name         = 'push-notify'
+  s.version      = '1.0.0'
+  s.summary      = 'push notifty management framework'
+  s.description  = 'A description of push-notify'
+  s.homepage     = 'https://github.com/umutboz/push-notify-ios'
+  s.author             = { 'umutboz' => 'umut.boz@outlook.com' }
   s.platform     = :ios
   s.ios.deployment_target = '10.0'
-  s.source       = { :git => "https://gitlab.kocsistem.com.tr/oneframe-mobile/ios/push-notify-management", :tag => s.version }
+  s.source       = { :git => "https://github.com/umutboz/push-notify-ios", :tag => s.version }
   s.source_files  = 'PushNotifyManagement/**/*.swift', 'PushNotifyManagement/*.swift'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
   s.dependency 'Firebase/Analytics', '~> 8.5'

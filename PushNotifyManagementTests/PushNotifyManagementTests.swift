@@ -2,7 +2,7 @@
 //  PushNotifyManagementTests.swift
 //  PushNotifyManagementTests
 //
-//  Created by Özgün Ergen on 10.08.2021.
+//  Created by umutboz on 10.08.2021.
 //
 
 import XCTest

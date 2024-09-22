@@ -10,16 +10,19 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "NO"
+            parallelizable = "YES"
+            testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36FB519326C55828005E0679"
-               BuildableName = "PushNotifyManagementUITests.xctest"
-               BlueprintName = "PushNotifyManagementUITests"
-               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+               BlueprintIdentifier = "36FB517526C55511005E0679"
+               BuildableName = "push-notifyTests.xctest"
+               BlueprintName = "push-notifyTests"
+               ReferencedContainer = "container:push-notify.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

@@ -2,7 +2,7 @@
 //  DeviceInfo.swift
 //  PushNotifyManagement
 //
-//  Created by Orhan Özgün Ergen on 4.01.2023.
+//  Created by  umutboz on 4.01.2023.
 //
 
 import Foundation

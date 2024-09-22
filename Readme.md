@@ -5,7 +5,7 @@ Kocsistem Support PushNotifyManagetment component for the notification at IOS ap
 
 # Cocoapods
 
-pod 'PushNotifyManagement' , :git => 'https://gitlab.kocsistem.com.tr/oneframe-mobile/ios/push-notify-management', :tag => '1.2.0'
+pod 'push-notify' , :git => 'https://github.com/umutboz/push-notify-ios.git', :tag => '1.0.0'
 
 # Requirement
 

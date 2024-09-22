@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "364763D026C28D4300469715"
-               BuildableName = "PushNotifyManagement.framework"
-               BlueprintName = "PushNotifyManagement"
-               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+               BuildableName = "push_notify.framework"
+               BlueprintName = "push-notify"
+               ReferencedContainer = "container:push-notify.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36FB517526C55511005E0679"
-               BuildableName = "PushNotifyManagementTests.xctest"
-               BlueprintName = "PushNotifyManagementTests"
-               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+               BuildableName = "push-notifyTests.xctest"
+               BlueprintName = "push-notifyTests"
+               ReferencedContainer = "container:push-notify.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -44,9 +44,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36FB519326C55828005E0679"
-               BuildableName = "PushNotifyManagementUITests.xctest"
-               BlueprintName = "PushNotifyManagementUITests"
-               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+               BuildableName = "push-notifyUITests.xctest"
+               BlueprintName = "push-notifyUITests"
+               ReferencedContainer = "container:push-notify.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "364763D026C28D4300469715"
-            BuildableName = "PushNotifyManagement.framework"
-            BlueprintName = "PushNotifyManagement"
-            ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+            BuildableName = "push_notify.framework"
+            BlueprintName = "push-notify"
+            ReferencedContainer = "container:push-notify.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

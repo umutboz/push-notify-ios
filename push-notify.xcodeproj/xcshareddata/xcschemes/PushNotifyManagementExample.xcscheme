@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "364763EE26C28D6300469715"
-               BuildableName = "PushNotifyManagementExample.app"
-               BlueprintName = "PushNotifyManagementExample"
-               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+               BuildableName = "push-notifyExample.app"
+               BlueprintName = "push-notifyExample"
+               ReferencedContainer = "container:push-notify.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36FB519326C55828005E0679"
-               BuildableName = "PushNotifyManagementUITests.xctest"
-               BlueprintName = "PushNotifyManagementUITests"
-               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+               BuildableName = "push-notifyUITests.xctest"
+               BlueprintName = "push-notifyUITests"
+               ReferencedContainer = "container:push-notify.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "364763EE26C28D6300469715"
-            BuildableName = "PushNotifyManagementExample.app"
-            BlueprintName = "PushNotifyManagementExample"
-            ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+            BuildableName = "push-notifyExample.app"
+            BlueprintName = "push-notifyExample"
+            ReferencedContainer = "container:push-notify.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "364763EE26C28D6300469715"
-            BuildableName = "PushNotifyManagementExample.app"
-            BlueprintName = "PushNotifyManagementExample"
-            ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+            BuildableName = "push-notifyExample.app"
+            BlueprintName = "push-notifyExample"
+            ReferencedContainer = "container:push-notify.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

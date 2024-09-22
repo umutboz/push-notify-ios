@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,15 +19,15 @@
 		366B60F526C5106C00B7DD0F /* PushNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366B60F426C5106C00B7DD0F /* PushNotificationDelegate.swift */; };
 		36D1819726C57B43006C1C5F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D1819626C57B43006C1C5F /* AppConstants.swift */; };
 		36FB517926C55511005E0679 /* PushNotifyManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FB517826C55511005E0679 /* PushNotifyManagementTests.swift */; };
-		36FB517B26C55511005E0679 /* PushNotifyManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* PushNotifyManagement.framework */; };
+		36FB517B26C55511005E0679 /* push_notify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* push_notify.framework */; };
 		36FB519726C55828005E0679 /* PushNotifyManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FB519626C55828005E0679 /* PushNotifyManagementUITests.swift */; };
 		36FDBF0426C3DBD40008CBB4 /* PushNotficationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0326C3DBD40008CBB4 /* PushNotficationService.swift */; };
 		36FDBF0626C3DCA60008CBB4 /* PushNotifyManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0526C3DCA60008CBB4 /* PushNotifyManagement.swift */; };
 		36FDBF0826C3DCC40008CBB4 /* PushNotification+Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0726C3DCC40008CBB4 /* PushNotification+Enums.swift */; };
 		36FDBF0A26C3DDA40008CBB4 /* APNSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0926C3DDA40008CBB4 /* APNSClient.swift */; };
 		36FDBF0C26C3DDED0008CBB4 /* FirebaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FDBF0B26C3DDED0008CBB4 /* FirebaseClient.swift */; };
-		36FDBF1526C3E5EE0008CBB4 /* PushNotifyManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* PushNotifyManagement.framework */; };
-		36FDBF1626C3E5EE0008CBB4 /* PushNotifyManagement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* PushNotifyManagement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36FDBF1526C3E5EE0008CBB4 /* push_notify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* push_notify.framework */; };
+		36FDBF1626C3E5EE0008CBB4 /* push_notify.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 364763D126C28D4300469715 /* push_notify.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9E3F92EB075BC7152BB599A6 /* Pods_PushNotifyManagementExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFEA01BEFBA7CF03B4427AA /* Pods_PushNotifyManagementExample.framework */; };
 		DC0E091129645571001DA281 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E091029645571001DA281 /* Request.swift */; };
 		DC0E09132964558B001DA281 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E09122964558B001DA281 /* Response.swift */; };
@@ -75,7 +75,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				36FDBF1626C3E5EE0008CBB4 /* PushNotifyManagement.framework in Embed Frameworks */,
+				36FDBF1626C3E5EE0008CBB4 /* push_notify.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,10 +85,10 @@
 /* Begin PBXFileReference section */
 		2099DBA95538910F64B10B16 /* Pods-PushNotifyManagementExample-PushNotifyManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExample-PushNotifyManagementUITests.release.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExample-PushNotifyManagementUITests/Pods-PushNotifyManagementExample-PushNotifyManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
 		21B56C3264E58E0B50D1AA74 /* Pods-PushNotifyManagementExample-PushNotifyManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotifyManagementExample-PushNotifyManagementUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushNotifyManagementExample-PushNotifyManagementUITests/Pods-PushNotifyManagementExample-PushNotifyManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		364763D126C28D4300469715 /* PushNotifyManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PushNotifyManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364763D126C28D4300469715 /* push_notify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = push_notify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		364763D426C28D4300469715 /* PNMWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNMWrapper.h; sourceTree = "<group>"; };
 		364763D526C28D4300469715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		364763EF26C28D6300469715 /* PushNotifyManagementExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotifyManagementExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364763EF26C28D6300469715 /* push-notifyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "push-notifyExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		364763F126C28D6300469715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		364763F326C28D6300469715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		364763F526C28D6300469715 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,10 +102,10 @@
 		366B60F226C5090100B7DD0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		366B60F426C5106C00B7DD0F /* PushNotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationDelegate.swift; sourceTree = "<group>"; };
 		36D1819626C57B43006C1C5F /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		36FB517626C55511005E0679 /* PushNotifyManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotifyManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FB517626C55511005E0679 /* push-notifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "push-notifyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FB517826C55511005E0679 /* PushNotifyManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotifyManagementTests.swift; sourceTree = "<group>"; };
 		36FB517A26C55511005E0679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36FB519426C55828005E0679 /* PushNotifyManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotifyManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FB519426C55828005E0679 /* push-notifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "push-notifyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FB519626C55828005E0679 /* PushNotifyManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotifyManagementUITests.swift; sourceTree = "<group>"; };
 		36FB519826C55828005E0679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36FDBF0326C3DBD40008CBB4 /* PushNotficationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotficationService.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36FDBF1526C3E5EE0008CBB4 /* PushNotifyManagement.framework in Frameworks */,
+				36FDBF1526C3E5EE0008CBB4 /* push_notify.framework in Frameworks */,
 				9E3F92EB075BC7152BB599A6 /* Pods_PushNotifyManagementExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36FB517B26C55511005E0679 /* PushNotifyManagement.framework in Frameworks */,
+				36FB517B26C55511005E0679 /* push_notify.framework in Frameworks */,
 				F2C51130821DFB6BD990510E /* Pods_PushNotifyManagement_PushNotifyManagementTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,10 +194,10 @@
 		364763D226C28D4300469715 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				364763D126C28D4300469715 /* PushNotifyManagement.framework */,
-				364763EF26C28D6300469715 /* PushNotifyManagementExample.app */,
-				36FB517626C55511005E0679 /* PushNotifyManagementTests.xctest */,
-				36FB519426C55828005E0679 /* PushNotifyManagementUITests.xctest */,
+				364763D126C28D4300469715 /* push_notify.framework */,
+				364763EF26C28D6300469715 /* push-notifyExample.app */,
+				36FB517626C55511005E0679 /* push-notifyTests.xctest */,
+				36FB519426C55828005E0679 /* push-notifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -395,9 +395,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		364763D026C28D4300469715 /* PushNotifyManagement */ = {
+		364763D026C28D4300469715 /* push-notify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 364763E526C28D4400469715 /* Build configuration list for PBXNativeTarget "PushNotifyManagement" */;
+			buildConfigurationList = 364763E526C28D4400469715 /* Build configuration list for PBXNativeTarget "push-notify" */;
 			buildPhases = (
 				487B615248A91824ADA82CA8 /* [CP] Check Pods Manifest.lock */,
 				364763CC26C28D4300469715 /* Headers */,
@@ -409,14 +409,14 @@
 			);
 			dependencies = (
 			);
-			name = PushNotifyManagement;
+			name = "push-notify";
 			productName = PNMWrapper;
-			productReference = 364763D126C28D4300469715 /* PushNotifyManagement.framework */;
+			productReference = 364763D126C28D4300469715 /* push_notify.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		364763EE26C28D6300469715 /* PushNotifyManagementExample */ = {
+		364763EE26C28D6300469715 /* push-notifyExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3647641626C28D6500469715 /* Build configuration list for PBXNativeTarget "PushNotifyManagementExample" */;
+			buildConfigurationList = 3647641626C28D6500469715 /* Build configuration list for PBXNativeTarget "push-notifyExample" */;
 			buildPhases = (
 				06CB99F183641C75DC1AEDE7 /* [CP] Check Pods Manifest.lock */,
 				364763EB26C28D6300469715 /* Sources */,
@@ -430,14 +430,14 @@
 			dependencies = (
 				36FDBF1326C3E4F40008CBB4 /* PBXTargetDependency */,
 			);
-			name = PushNotifyManagementExample;
+			name = "push-notifyExample";
 			productName = PNMWrapperExample;
-			productReference = 364763EF26C28D6300469715 /* PushNotifyManagementExample.app */;
+			productReference = 364763EF26C28D6300469715 /* push-notifyExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		36FB517526C55511005E0679 /* PushNotifyManagementTests */ = {
+		36FB517526C55511005E0679 /* push-notifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36FB517E26C55511005E0679 /* Build configuration list for PBXNativeTarget "PushNotifyManagementTests" */;
+			buildConfigurationList = 36FB517E26C55511005E0679 /* Build configuration list for PBXNativeTarget "push-notifyTests" */;
 			buildPhases = (
 				8491F6EB1C94150085CF1545 /* [CP] Check Pods Manifest.lock */,
 				36FB517226C55511005E0679 /* Sources */,
@@ -450,14 +450,14 @@
 			dependencies = (
 				36FB517D26C55511005E0679 /* PBXTargetDependency */,
 			);
-			name = PushNotifyManagementTests;
+			name = "push-notifyTests";
 			productName = PushNotifyManagementTests;
-			productReference = 36FB517626C55511005E0679 /* PushNotifyManagementTests.xctest */;
+			productReference = 36FB517626C55511005E0679 /* push-notifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		36FB519326C55828005E0679 /* PushNotifyManagementUITests */ = {
+		36FB519326C55828005E0679 /* push-notifyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36FB519B26C55828005E0679 /* Build configuration list for PBXNativeTarget "PushNotifyManagementUITests" */;
+			buildConfigurationList = 36FB519B26C55828005E0679 /* Build configuration list for PBXNativeTarget "push-notifyUITests" */;
 			buildPhases = (
 				80DD8B92497C43AB47927EBB /* [CP] Check Pods Manifest.lock */,
 				36FB519026C55828005E0679 /* Sources */,
@@ -469,9 +469,9 @@
 			dependencies = (
 				36FB519A26C55828005E0679 /* PBXTargetDependency */,
 			);
-			name = PushNotifyManagementUITests;
+			name = "push-notifyUITests";
 			productName = PushNotifyManagementUITests;
-			productReference = 36FB519426C55828005E0679 /* PushNotifyManagementUITests.xctest */;
+			productReference = 36FB519426C55828005E0679 /* push-notifyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -499,7 +499,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 364763CB26C28D4300469715 /* Build configuration list for PBXProject "PushNotifyManagement" */;
+			buildConfigurationList = 364763CB26C28D4300469715 /* Build configuration list for PBXProject "push-notify" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -512,10 +512,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				364763D026C28D4300469715 /* PushNotifyManagement */,
-				36FB517526C55511005E0679 /* PushNotifyManagementTests */,
-				364763EE26C28D6300469715 /* PushNotifyManagementExample */,
-				36FB519326C55828005E0679 /* PushNotifyManagementUITests */,
+				364763D026C28D4300469715 /* push-notify */,
+				36FB517526C55511005E0679 /* push-notifyTests */,
+				364763EE26C28D6300469715 /* push-notifyExample */,
+				36FB519326C55828005E0679 /* push-notifyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -737,17 +737,17 @@
 /* Begin PBXTargetDependency section */
 		36FB517D26C55511005E0679 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 364763D026C28D4300469715 /* PushNotifyManagement */;
+			target = 364763D026C28D4300469715 /* push-notify */;
 			targetProxy = 36FB517C26C55511005E0679 /* PBXContainerItemProxy */;
 		};
 		36FB519A26C55828005E0679 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 364763EE26C28D6300469715 /* PushNotifyManagementExample */;
+			target = 364763EE26C28D6300469715 /* push-notifyExample */;
 			targetProxy = 36FB519926C55828005E0679 /* PBXContainerItemProxy */;
 		};
 		36FDBF1326C3E4F40008CBB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 364763D026C28D4300469715 /* PushNotifyManagement */;
+			target = 364763D026C28D4300469715 /* push-notify */;
 			targetProxy = 36FDBF1226C3E4F40008CBB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -916,7 +916,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kocsistem.PNMWrapper;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umutboz.push-ios";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -947,7 +947,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kocsistem.PNMWrapper;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umutboz.push-ios";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1159,7 +1159,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		364763CB26C28D4300469715 /* Build configuration list for PBXProject "PushNotifyManagement" */ = {
+		364763CB26C28D4300469715 /* Build configuration list for PBXProject "push-notify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				364763E326C28D4400469715 /* Debug */,
@@ -1168,7 +1168,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		364763E526C28D4400469715 /* Build configuration list for PBXNativeTarget "PushNotifyManagement" */ = {
+		364763E526C28D4400469715 /* Build configuration list for PBXNativeTarget "push-notify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				364763E626C28D4400469715 /* Debug */,
@@ -1177,7 +1177,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3647641626C28D6500469715 /* Build configuration list for PBXNativeTarget "PushNotifyManagementExample" */ = {
+		3647641626C28D6500469715 /* Build configuration list for PBXNativeTarget "push-notifyExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3647641726C28D6500469715 /* Debug */,
@@ -1186,7 +1186,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36FB517E26C55511005E0679 /* Build configuration list for PBXNativeTarget "PushNotifyManagementTests" */ = {
+		36FB517E26C55511005E0679 /* Build configuration list for PBXNativeTarget "push-notifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36FB517F26C55511005E0679 /* Debug */,
@@ -1195,7 +1195,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36FB519B26C55828005E0679 /* Build configuration list for PBXNativeTarget "PushNotifyManagementUITests" */ = {
+		36FB519B26C55828005E0679 /* Build configuration list for PBXNativeTarget "push-notifyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36FB519C26C55828005E0679 /* Debug */,

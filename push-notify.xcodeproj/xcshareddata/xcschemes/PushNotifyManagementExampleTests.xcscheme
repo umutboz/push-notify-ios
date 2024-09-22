@@ -19,7 +19,7 @@
                BlueprintIdentifier = "3647640326C28D6500469715"
                BuildableName = "PushNotifyManagementExampleTests.xctest"
                BlueprintName = "PushNotifyManagementExampleTests"
-               ReferencedContainer = "container:PushNotifyManagement.xcodeproj">
+               ReferencedContainer = "container:push-notify.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

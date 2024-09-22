@@ -2,7 +2,7 @@
 //  PushNotification+Enums.swift
 //  PushNotifyManagement
 //
-//  Created by Özgün Ergen on 11.08.2021.
+//  Created by umutboz on 11.08.2021.
 //
 
 import Foundation
